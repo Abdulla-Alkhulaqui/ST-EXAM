@@ -586,7 +586,7 @@ public class Switch {
 ```
 --- A. The switch violates the Liskov Substitution Principle\
 --- B. The switch violates the Open/Closed Principle\
---- C. The switch is at a higher abstraction level than the lamp, so it violates the Dependency Inversion Principle.\ 
+--- C. The switch is at a higher abstraction level than the lamp, so it violates the Dependency Inversion Principle.\
 --- D. The switch violates the Single Responsibility Principle
 
 Q6\
