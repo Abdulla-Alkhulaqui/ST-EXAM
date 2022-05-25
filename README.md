@@ -95,9 +95,9 @@ D. This code throws an exception at runtime.
 Q9
 Which of these statements about immutable classes is not true?\
 A. The class should be final to avoid inheritance.\
-&check; B. All the attributes of the class should be declared as private final.\
+B. All the attributes of the class should be declared as private final.\ &check; 
 C. We have to make a copy of the objects stored in attributes, when we return it in a getter method.\
-D. The class should not contain any kind of methods, that change the state after the constructor.\
+D. The class should not contain any kind of methods, that change the state after the constructor.
  
 ## JDBC 
 Q1\
