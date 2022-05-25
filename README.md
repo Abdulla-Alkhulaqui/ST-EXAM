@@ -2,27 +2,26 @@
 
 
 Threads 
- 
-    1. Sequence diagrams illustrate interactions between objects on a time axis going from the top to the bottom of the diagram. The lifeline of an object is the dashed line. The messages passed (that is, the method calls) between the objects are shown as the arrows. 
+
+1. Sequence diagrams illustrate interactions between objects on a time axis going from the top to the bottom of the diagram. The lifeline of an object is the dashed line. The messages passed (that is, the method calls) between the objects are shown as the arrows. 
  
 On the figure the arrows denote locking resources. We know that both threads need both resources. 
  
-                                      
- 
+                                       
 At which method call can we be sure that there is a deadlock? 
  
-    2. What will be the result of calling the wait() method of an object if the calling thread doesn't posess the monitor lock? 
+2. What will be the result of calling the wait() method of an object if the calling thread doesn't posess the monitor lock? 
+
+3. What is the default priority of threads? 
  
-    3. What is the default priority of threads? 
- 
-    4. Which possible outputs can this running code produce? 
- 
+4. Which possible outputs can this running code produce? 
+`
 public class Tester extends Thread {     int code = 9;     public void run() {         this.code = 7; 
     }     public static void main(String[] args) {         Tester thread = new Tester();         thread.start();         for (int i = 0; i < 5; i++) {             System.out.print(thread.code); 
         } 
     } 
 } 
- 
+`
  
 5. What will be the result when running this code? 
  
