@@ -67,10 +67,10 @@ public class Test extends Thread {
 ```
 Q7\
 Which of these are atomic operations?\
-* Reading/writing reference variables\
-* Reading/writing of all primitive types\
-* Both\
-* None of the above
+A. Reading/writing reference variables\
+B. Reading/writing of all primitive types\
+C. Both\
+D. None of the above
 
 Q8    
 Which statement is true of this code?
