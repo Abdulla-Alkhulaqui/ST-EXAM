@@ -67,7 +67,7 @@ public class Test extends Thread {
 ```
 Q7\
 Which of these are atomic operations?\
- A. Reading/writing reference variables\
+\tA. Reading/writing reference variables\
  B. Reading/writing of all primitive types\
  C. Both\
  D. None of the above
