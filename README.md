@@ -96,7 +96,7 @@ Q9
 Which of these statements about immutable classes is not true?\
 A. The class should be final to avoid inheritance.\
 &#9745; B. All the attributes of the class should be declared as private final.\
-C. We have to make a copy of the objects stored in attributes, when we return it in a getter method.\
+&check; C. We have to make a copy of the objects stored in attributes, when we return it in a getter method.\
 D. The class should not contain any kind of methods, that change the state after the constructor.\
  
 ## JDBC 
