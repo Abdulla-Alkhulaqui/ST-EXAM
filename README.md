@@ -498,7 +498,7 @@ Which of the following are the build tools?\
 --- A. Ant, Maven, Gradle\
 --- B. Ant, Git, Subversion (SVN)\
 --- C. Ant, Maven, Subversion (SVN)\
---- D. Maven, Gradle, Git\
+--- D. Maven, Gradle, Git
  
 ## Design principles, Design patterns 
 
@@ -754,7 +754,7 @@ Q8
 what can't be a program component?\
 &check; A. Component. (Artifact)\
 --- B. Program library. (Class library)\
---- C. Executable file. (Executable)\
+--- C. Executable file. (Executable)
 
 
 Q9
