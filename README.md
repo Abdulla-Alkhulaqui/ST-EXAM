@@ -70,7 +70,7 @@ Which of these are atomic operations?\
 A. Reading/writing reference variables\
 B. Reading/writing of all primitive types\
 C. Both\
-D. None of the above\
+D. None of the above
 
 Q8    
 Which statement is true of this code?
@@ -90,7 +90,7 @@ public class Test extends Thread {
 A. We can make the class thread-safe, if we make the run method synchronized.\
 B. The class is thread-safe.\
 C. We can make the class thread-safe, if we make the foo method static.\
-D. This code throws an exception at runtime.\
+D. This code throws an exception at runtime.
 
 Q9
 Which of these statements about immutable classes is not true?\
@@ -105,63 +105,63 @@ Which of these SQL statements are DML statements?\
 A. update [table] set ...\
 B. delete from [table] ...\
 C. alter table ...\
-D. insert into [table] ...\
+D. insert into [table] ...
 
 Q2\
 Which of these is an incorrect way to access the data in a ResultSet?\
 A. String value0 = rs.getString(0);\
 B. String value1 = rs.getString(1);\
 C. int    value2 = rs.getInt(2);\
-D. int    value3 = rs.getInt(“ADDR_LN1");\
+D. int    value3 = rs.getInt(“ADDR_LN1");
 
 Q3\
 What information cannot be obtained from the SQLException object?\
 A. SQL status code.\
 B. Driver / Database specific error code.\
 C. Database request causing the error.\
-D. Description of the error that occurred.\
+D. Description of the error that occurred.
 
 Q4\
 Which of the following statements is true?\
 A. CallableStatement extends the PreparedStatement interface. This interface can be used to call SQL stored procedures.\
 B. Statement extends the PreparedStatement interface and is used when the SQL query does not need to be run multiple times.\
 C. PreparedStatement is used to start static queries (eg select * from table), therefore PreparedStatements cannot be parameterized.\
-D. Batch processing of SQL statements is possible using PreparedStatement.\
+D. Batch processing of SQL statements is possible using PreparedStatement.
 
 Q5\
 How to start a new database transaction?\
 A. By requesting a Transaction object from Connection and calling that begin () method.\
 B. By requesting a Transaction object from Connection and setting its autoCommit property to false.\
 C. By calling the beginTransaction method of the Connection.\
-D. By setting the autoCommit property of the Connection to false and executing an SQL statement.\
+D. By setting the autoCommit property of the Connection to false and executing an SQL statement.
  
 Q6\
 When do we use the transaction on databases?\
 A. To run stored procedures\
 B. To perform multiple operations atomically\
 C. For a linked table query\
-D. To name transfers\
+D. To name transfers
 
 Q7\
 Which connection is usually interpreted with a connection table?\
 A. 1-n connection\
 B. m-1 connection\
 C. m-n connection\
-D. D connection\
+D. D connection
 
 Q8\
 Which one is not part of the Entity-Relationship diagram?\
 A. Attribute\
 B. Entity\
 C. Keys\
-D. Class\
+D. Class
 
 Q9\
 Which one is not true about the relationship between JTable and the model?\
 A. JTable does not contain data\
 B. The model can be redefined\
 C. The model cannot notify JTable of the change\
-D. The representation of the model may differ from the data queried by JTable\
+D. The representation of the model may differ from the data queried by JTable
  
 
 ## Software Technology / UML 
@@ -170,119 +170,119 @@ What are the principal quality metrics of software?\
 A. Delivery time, implementation cost, hardware and software requirements.\
 B. Maintainability, reliability, safety, efficiency, usability.\
 C. Modifiability, Extensibility, Resolution, Reusability, Reliability.\
-D. Ergonomics, usability, compatibility, hardware and software requirements.\
+D. Ergonomics, usability, compatibility, hardware and software requirements.
  
 Q2\
 Which of these is the structure of a user story?\
 A. USER … IN USE CASE … WITH RELATION …\
 B. AS A … USE … TO …\
 C. WHEN … APPLYING … IN ORDER TO …\
-D. GIVEN … WHEN … THEN …\
+D. GIVEN … WHEN … THEN …
 
 Q3\
 What is the correct order of requirements analysis steps?\
 A. feasibility analysis, requirement exploration, requirement specification, requirement validation\
 B. requirement exploration, requirement specification, requirement validation, feasibility analysis\
 C. requirement exploration, requirement validation, requirement specification, feasibility analysis\
-D. requirement exploration, requirement specification, feasibility analysis, requirement validation\
+D. requirement exploration, requirement specification, feasibility analysis, requirement validation
  
 Q4\
 Which of these is not a software development process?\
 A. waterfall\
 B. 	evolution\
 C. scrum\
-D. 	prototyping\
+D. 	prototyping
 
 Q5\
 Which of these are the relations of a UML use case diagram?\
 A. dependency, composition, usage, nesting\
 B. precedes, include, usage, generalization\
 C. usage, nesting, import), dependency\
-D. interface, implementation, include\
+D. interface, implementation, include
 
 Q6\
 What is the UML deployment diagram used for?\
 A. Describe the sequence of steps required to install the software on a given machine.\
 B. It depicts all the error possibilities that you may encounter during installation.\
 C. Describe the software components according to how to install them in an installation package.\
-D. Depict the physical placement of software components (on different machines) with the required software environment.\
+D. Depict the physical placement of software components (on different machines) with the required software environment.
 
 Q7\
 Which OOP design principle is violated by the singleton design pattern? The singleton pattern guarantees that there is only a single instance created from a class which can be accessed through a static method.\
 A. Single Responsibility Principle\
 B. Open/Closed Principle\
 C. Liskov Substitution Principle\
-D. Dependency Inversion Principle\
+D. Dependency Inversion Principle
  
 Q8\
 Which of these techniques can be used to implement dependency inversion?\
 A. observer\
 B. MVC (modell-view-controller)\
 C. dependency injection\
-D. generalization\
+D. generalization
  
 Q9\
 What is Test Driven Development (TDD)?\
 A. A software development method in which tests are written before the actual program code is written.\
 B. Test method to ensure that test cases cover all program units and are performed in the appropriate order.\
 C. A general principle that states that all instructions in program code should be verified using unit tests (100% code coverage).\
-D. A testing method in which unit tests are first performed on classes (and their methods), then integration tests are used to check the combined behavior of the classes, and finally system tests are used to check the behavior of the entire software.\
+D. A testing method in which unit tests are first performed on classes (and their methods), then integration tests are used to check the combined behavior of the classes, and finally system tests are used to check the behavior of the entire software.
  
 Q10\
 Which the following features is not provided by unit testing frameworks?\
 A. Create manual test cases in separate program units (classes).\
 B. Generate test cases automatically, that covers all scenarios, by analyzing the code.\
 C. Assert statements, which compare the expected and the return values.\
-D. Creation of test reports, which lists the passed/failed tests.\
+D. Creation of test reports, which lists the passed/failed tests.
 
 Q11\
 In the case of Unit testing, the parts of the program must be separated from each other and boundaries must be established between them. One possible solution to this is to use objects that mimic the behavior of other objects. What are these objects called?\
 A. Mock objects\
 B. Modules\
 C. Units\
-D. Atoms\
+D. Atoms
 
 Q12\
 What is the starting point of object-oriented design?\
 A. 	Functions\
 B. 	Activities\
 C. 	Entities and relations\
-D. 	Architecture\
+D. 	Architecture
 
 Q13\
 How do we express that an object is related to several objects of a class? 
 A. With composition\
 B. With multiplicity\
 C. With an array type attribute\
-D. With aggregation\
+D. With aggregation
 
 Q14\
 Which of these can we assign constraints to on a class diagram?\
 A. 	Relation\
 B. 	Attribute\
 C. 	Method parameters\
-D. 	All\
+D. 	All
  
 Q15\
 Which of these relations is between classes?\
 A. 	Association\
 B. 	Dependency\
 C. 	Inheritance\
-D. 	Aggregation\
+D. 	Aggregation
 
 Q16\
 Which diagram is not part of the dynamic model?\
 A. State diagram\
 B. Sequence diagram\
 C. Activity diagram\
-D. Component diagram\
+D. Component diagram
 
 Q17\
 What cannot have a state on a state diagram?\
 A. Name\
 B. Invariant\
 C. Precondition\
-D. Parameter\
+D. Parameter
 
 
 Q18\
@@ -290,7 +290,7 @@ Which method can reduce the complexity of the state diagram?\
 A. Generalization\
 B. Aggregation\
 C. By generalization and aggregation\
-D. None of the others\
+D. None of the others
 
 Q19\
 Which statement is true?\
