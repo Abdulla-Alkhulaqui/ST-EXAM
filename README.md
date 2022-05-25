@@ -692,7 +692,7 @@ Which one is not a non-functional requirement?\
 &check; D. Description of services, rections
 
 
-Q2\
+Q2
 
 Which relation type is not part of the use case diagram?\
 --- A. Precedes\
@@ -700,11 +700,77 @@ Which relation type is not part of the use case diagram?\
 --- C. Invokes\
 &check; D. Composition
 
-Q3\
+Q3
 
-Which is false? Requirements elicitation and abalysis can be more difficult because...\
+Which is false? Requirements elicitation and analysis can be more difficult because...\
 &check; A. Customers are direct users of the software.\
 --- B. Customers do not clearly express their exectations.\
 --- C. Customers do not have IT skills\
 --- D. Buyers are uncertain about expectations.
 
+
+Q4
+
+Which is the structure of the user story?\
+--- A. USER user IN USE CASE use case WITH RELATION relation.\
+&check; B. GIVEN environment WHEN activity THEN effect.\
+--- C. AS A role USE function TO goal\
+--- D. WHEN activity APPLYING function IN ORDER TO goal.
+
+
+
+
+Q5
+
+How many principles should we follow according to the SOLID principle?\
+--- A. 3\
+&check; B. 5\
+--- C. 4\
+--- D. 6
+
+
+Q6
+
+Which statement is false about the design phases?\
+--- A. Classes that become complex can be split uo to less complex classes.\
+&check; B. We need to put functionally fragmented classes into one package.\
+--- C. Existing classes can be further specified at each stage.\
+--- D. We can introduce new classes in each phase.
+
+
+
+Q7
+
+Which one is not part of the system plan?\
+--- A. Dynamic plan.\
+--- B. Static plan.\
+--- C. User interface plan.\
+&check; D. Cost estimation.
+
+
+
+Q8
+
+what can't be a program component?\
+&check; A. Component. (Artifact)\
+--- B. Program library. (Class library)\
+--- C. Executable file. (Executable)\
+
+
+Q9
+
+For which architecture is it most difficult to separate the functions of the program?\
+&check; A. Monolithic architecture.\
+--- B. Model-view-presentation architecture\
+--- C. Model-view-controller architecture\
+--- D. Model-view architecture
+
+
+
+Q10
+
+What is software architecture?\
+--- A. The class structure from which we build package diagram.\
+--- B. The way software is deployed to the hardware architecture.\
+&check; C. A set of primary design decisions made during software development.\
+--- D. Software component diagram.
