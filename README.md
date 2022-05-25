@@ -4,6 +4,8 @@
 Q1\
 Sequence diagrams illustrate interactions between objects on a time axis going from the top to the bottom of the diagram. The lifeline of an object is the dashed line. The messages passed (that is, the method calls) between the objects are shown as the arrows. On the figure the arrows denote locking resources. We know that both threads need both resources. 
  
+![image](https://user-images.githubusercontent.com/60021814/170315272-c26daf14-57ba-4e0d-b5bf-4a0009563a68.png)
+
                                        
 At which method call can we be sure that there is a deadlock? 
 
