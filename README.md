@@ -683,7 +683,7 @@ public class MagicMaze extends Maze {
 
 ## WEEKLY QUIZZES
 
-Q1\
+Q1
 
 Which one is not a non-functional requirement?\
 --- A. External requirements\
@@ -692,6 +692,19 @@ Which one is not a non-functional requirement?\
 &check; D. Description of services, rections
 
 
+Q2\
 
+Which relation type is not part of the use case diagram?\
+--- A. Precedes\
+--- B. Extend\
+--- C. Invokes\
+&check; D. Composition
 
+Q3\
+
+Which is false? Requirements elicitation and abalysis can be more difficult because...\
+&check; A. Customers are direct users of the software.\
+--- B. Customers do not clearly express their exectations.\
+--- C. Customers do not have IT skills\
+--- D. Buyers are uncertain about expectations.
 
