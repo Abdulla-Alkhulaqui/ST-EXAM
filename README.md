@@ -297,18 +297,17 @@ Which statement is true?\
 A. The invariant of generalization is the disjunction of the invariants of states\
 B. The invariant of generalization is the conjunction of the invariants of states\
 C. The invariant of aggregation is the disjunction of the invariants of states\
-D. The states obtained by the two methods have no invariant\
+D. The states obtained by the two methods have no invariant
 
 Q20
-Which diagrams are part of the static model? 
-A. Class Diagram, Object Diagram 
-B. Class Diagram, State Diagram 
-C. Object diagram, Sequence diagram 
-D. Object Diagram, Activity Diagram 
+Which diagrams are part of the static model?\
+A. Class Diagram, Object Diagram\
+B. Class Diagram, State Diagram\
+C. Object diagram, Sequence diagram\
+D. Object Diagram, Activity Diagram
  
-Q21
-Based on the following implementation, which relationship exists exactly between the car and the engine? 
-
+Q21\
+Based on the following implementation, which relationship exists exactly between the car and the engine?
 ```
 public class Car { 
     private Engine engine; 
@@ -320,12 +319,13 @@ public class Car {
     } 
 } 
 ```
-A. Association 
-B. Aggregation 
-C. Composition 
-D. Generalization 
-Q22
-Based on the following implementation, which relationship exists exactly between the car and the engine? 
+A. Association\
+B. Aggregation\
+C. Composition\
+D. Generalization
+
+Q22\
+Based on the following implementation, which relationship exists exactly between the car and the engine?
 ```
 public class Car { 
     private final Engine engine; 
@@ -340,175 +340,175 @@ public class Car {
     } 
 } 
 ```
-A. Association 
-B. Aggregation 
-C. Composition 
-D. Generalization 
+A. Association\
+B. Aggregation\
+C. Composition\
+D. Generalization
  
-Q23 
-What is the relationship between the Person and Phone classes in the class diagram below? 
-A. Association 
-B. Aggregation 
-C. Composition 
+Q23\
+What is the relationship between the Person and Phone classes in the class diagram below?\
+A. Association\
+B. Aggregation\
+C. Composition\
 D. Generalization 
  
 ## Implementation related questions 
 
-Q1 
-What kind of methods do we have to implement when we would like to use instances of our own class as keys in a HashMap? 
-A. == operator 
-B. hashCode(…) method 
-C. equals(…) method 
-D. hashCode(…) and equals(…) methods 
+Q1\
+What kind of methods do we have to implement when we would like to use instances of our own class as keys in a HashMap?\
+A. == operator\
+B. hashCode(…) method\
+C. equals(…) method\
+D. hashCode(…) and equals(…) methods
  
-Q2
-Which of the following options should you choose if you want to apply mainly an index-based search to a dynamically changing data set where the same element can occur more than once? (We only want to add a new item to the end of the collection, we don't want to delete it from the collection often.) 
-E. ArrayList 
-F. LinkedList 
-G. Array 
+Q2\
+Which of the following options should you choose if you want to apply mainly an index-based search to a dynamically changing data set where the same element can occur more than once? (We only want to add a new item to the end of the collection, we don't want to delete it from the collection often.)\
+E. ArrayList\
+F. LinkedList\
+G. Array\
 H. HashSet 
 
-Q3 
-Which implementation to choose from the following options if you want to use a collection that does not contain duplicate items and you do not need to store the items in the order of insertion or in ascending order of values? 
-A. List 
-B. TreeSet 
-C. LinkedHashSet 
+Q3\
+Which implementation to choose from the following options if you want to use a collection that does not contain duplicate items and you do not need to store the items in the order of insertion or in ascending order of values?\
+A. List\
+B. TreeSet\
+C. LinkedHashSet\
 D. HashSetArrayList 
 
-Q4
-Which of the following implementations of interfaces are used to store key-value pairs? A List 
-B. Set 
-C. Map 
-D. Collection 
+Q4\
+Which of the following implementations of interfaces are used to store key-value pairs? A List\
+B. Set\
+C. Map\
+D. Collection
 
-Q5
-Which of these statements is true? 
-A. A final abstract class must have at least one abstract method  
-B. An abstract class has at least one abstract method 
-C. All the attributes of a final class are final  
+Q5\
+Which of these statements is true?\
+A. A final abstract class must have at least one abstract method\
+B. An abstract class has at least one abstract method\
+C. All the attributes of a final class are final\
 D. The derived class of an abstract class can be also abstract 
  
-Q6
-Which of these statements is false? 
-A. We cannot derive from a final class 
-B. Interfaces cannot be derived 
-C. A class can implement multiple interfaces  
+Q6\
+Which of these statements is false?\
+A. We cannot derive from a final class\
+B. Interfaces cannot be derived\
+C. A class can implement multiple interfaces\
 D. We have to implement all methods of the interface 
  
-Q7
-Which of these can be a generic parameter? 
-A. Primitive type 
-B. Class 
-C. Interface 
+Q7\
+Which of these can be a generic parameter?\
+A. Primitive type\
+B. Class\
+C. Interface\
 D. Class, that implements the methods used in the generic 
  
-Q8
-Which collection can be indexed? 
-A. HashSet 
-B. HashMap 
-C. Vector 
+Q8\
+Which collection can be indexed?\
+A. HashSet\
+B. HashMap\
+C. Vector\
 D. TreeMap 
  
-Q9
-What can be static in JAVA? 
-A. Class field 
-B. Method 
-C. Class / interface 
-D. Enumeration 
+Q9\
+What can be static in JAVA?\
+A. Class field\
+B. Method\
+C. Class / interface\
+D. Enumeration
 
-Q10 
-What does Java support about multiple specialization and multiple generalizations? 
-A. Generalization
-B. Specialization 
-C. Both 
+Q10\
+What does Java support about multiple specialization and multiple generalizations?\
+A. Generalization\
+B. Specialization\
+C. Both\
 D. None 
 
 ## Software development methodologies and models 
 
-Q1
-Which of the following is not an agile principle? 
-A. Prefer the methodology instead of the tools 
-B. Prefer the operating software instead of a comprehensive documentation 
-C. Prefer cooperation with the client instead of enforcing the contractual negotiations 
+Q1\
+Which of the following is not an agile principle?\
+A. Prefer the methodology instead of the tools\
+B. Prefer the operating software instead of a comprehensive documentation\
+C. Prefer cooperation with the client instead of enforcing the contractual negotiations\
 D. Prefer responding to changes instead of following the plan. 
  
-Q2
-Which statement is not true about the sprint? 
-A. The product is all designed, coded and tested within the sprint. 
-B. The result of the sprint is a working code representing business value. 
-C. Once tasks and times have been defined, only the product owner will be involved in the work of the team. 
+Q2\
+Which statement is not true about the sprint?\
+A. The product is all designed, coded and tested within the sprint.\
+B. The result of the sprint is a working code representing business value.\
+C. Once tasks and times have been defined, only the product owner will be involved in the work of the team.\
 D. The Scrum team works in a self-organizing way throughout the sprint. 
 
-Q3
-Which statement is true for the Scrum Master? (not included)
-A. Scrum Master is the manager of the Scrum team 
-B. The Scrum Master leads the daily Scrum 
-C. Scrum Master is not responsible for protecting the work of the SCRUM team from outside influences 
+Q3\
+Which statement is true for the Scrum Master? (not included)\
+A. Scrum Master is the manager of the Scrum team\
+B. The Scrum Master leads the daily Scrum\
+C. Scrum Master is not responsible for protecting the work of the SCRUM team from outside influences\
 D. Scrum Master is responsible for the processes 
  
-Q4
-Which statement is true for daily Scrum? (not included)
-A. The daily Scrum is led by the Scrum Master. 
-B. During the daily Scrum, team members report to the Scrum Master on their progress. 
-C. During the daily Scrum, the goal is to remove obstacles that affect the team. 
-D. The daily Scrum can last up to 15 minutes. 
+Q4\
+Which statement is true for daily Scrum? (not included)\
+A. The daily Scrum is led by the Scrum Master.\
+B. During the daily Scrum, team members report to the Scrum Master on their progress.\
+C. During the daily Scrum, the goal is to remove obstacles that affect the team.\
+D. The daily Scrum can last up to 15 minutes.
 
-Q5 
-Test-driven development (TDD) is a software development methodology according to which… 
-A. the tests must be written before the actual program code is implemented. 
-B. tests must be performed on each unit after the actual program code has been implemented. 
-C. new program code can be implemented after approval by the test colleague. 
+Q5\
+Test-driven development (TDD) is a software development methodology according to which…\
+A. the tests must be written before the actual program code is implemented.\
+B. tests must be performed on each unit after the actual program code has been implemented.\
+C. new program code can be implemented after approval by the test colleague.\
 D. the test report must be assigned to the documentation one day before the implementation of the new program code. 
  
 
 ## Version control 
  
-Q1
-What is the purpose of the continuous integration (CI) practical method? 
-A. Immediate, automated filtering of possible errors and integration problems, feedback to the developer. (Self-check build) 
-B. Automatically re-run failed integration tests until they are repaired. 
-C. Facilitates the transition to an object-oriented programming language. 
+Q1\
+What is the purpose of the continuous integration (CI) practical method?\
+A. Immediate, automated filtering of possible errors and integration problems, feedback to the developer. (Self-check build)\
+B. Automatically re-run failed integration tests until they are repaired.\
+C. Facilitates the transition to an object-oriented programming language.\
 D. Complete replacement of manual testing. 
  
 Q2
-What are the disadvantages of centralized version control systems (Example: SVN, Perforce, CVS)? 
-A. The privileged role of the server. (In the event of a failure, the system becomes unusable until the server is repaired.) In addition, version control requires a network connection. 
-B. File-based operation 
-C. Local storage 
+What are the disadvantages of centralized version control systems (Example: SVN, Perforce, CVS)?\
+A. The privileged role of the server. (In the event of a failure, the system becomes unusable until the server is repaired.) In addition, version control requires a network connection.\
+B. File-based operation\
+C. Local storage\
 D. Concurrency management realized by exclusive locks. 
  
-Q3
+Q3\
 Which statement is not true for distributed version control systems (Example: Git, Mercurial)? 
-A. A decentralized, distributed network model is used, where concurrency management is typically done through post-submission merging. 
-B. Each client has a complete repository and version history. The operations of the revision management tool take place locally on the client's storage. 
-C. Communication is peer-to-peer, but it is also possible to set up dedicated servers. 
+A. A decentralized, distributed network model is used, where concurrency management is typically done through post-submission merging.\
+B. Each client has a complete repository and version history. The operations of the revision management tool take place locally on the client's storage.\
+C. Communication is peer-to-peer, but it is also possible to set up dedicated servers.\
 D. A set of file-based operations is typical, where concurrency management is typically done by merging before submission. 
 
-Q4 
-Is it true that there can be no conflict with Git merge? 
-A. True, as conflict can only occur with rebase. 
-B. False, because there is a conflict between colleagues for every merge. 
-C. True, since each merge is also another commit. 
+Q4\
+Is it true that there can be no conflict with Git merge?\
+A. True, as conflict can only occur with rebase.\
+B. False, because there is a conflict between colleagues for every merge.\
+C. True, since each merge is also another commit.\
 D. False, as git may not be able to resolve changes automatically. (Example: Two different commit stores a change on the same line in a file.) 
 
-Q5 
-Which of the following are the build tools? 
-A. Ant, Maven, Gradle 
-B. Ant, Git, Subversion (SVN) 
-C. Ant, Maven, Subversion (SVN) 
-D. Maven, Gradle, Git 
+Q5\
+Which of the following are the build tools?\
+A. Ant, Maven, Gradle\
+B. Ant, Git, Subversion (SVN)\
+C. Ant, Maven, Subversion (SVN)\
+D. Maven, Gradle, Git\
  
 ## Design principles, Design patterns 
 
-Q1 
-What does the DRY principle say? 
-A. Don’t implement code in advance that “will need it in the future” because we will almost certainly never need it. 
-B. Each piece of knowledge must have a single, clear and reliable representation within a system. 
-C. Perfection is not best approached when we can no longer add anything to a system, but when we do not know what to take from it. 
-D. It is safe to say that the quality of our code base will improve if we always leave our current code there a little “better”, a little cleaner than we found it. 
+Q1\
+What does the DRY principle say?\
+A. Don’t implement code in advance that “will need it in the future” because we will almost certainly never need it.\
+B. Each piece of knowledge must have a single, clear and reliable representation within a system.\
+C. Perfection is not best approached when we can no longer add anything to a system, but when we do not know what to take from it.\
+D. It is safe to say that the quality of our code base will improve if we always leave our current code there a little “better”, a little cleaner than we found it.
  
-Q2
-Which object-oriented principle is violated in the code snippet below? 
+Q2\
+Which object-oriented principle is violated in the code snippet below?
 ```
 public enum Status { 
     UNRESOLVED, IN_PROGRESS, RESOLVED, CLOSED 
@@ -529,20 +529,20 @@ public class ProjectTask extends Task {
        } 
  } 
 ```
-A. Liskov Substitution Principle 
-B. Dependency Inversion Principle 
-C. KISS 
+A. Liskov Substitution Principle\
+B. Dependency Inversion Principle\
+C. KISS\
 D. DRY 
 
-Q3
-Which of the following is not a SOLID principle? 
-A. Liskov Substitution Principle 
-B. Open / Closed Principle 
-C. Single Responsibility Principle 
-D. Separation of Concerns Principle 
+Q3\
+Which of the following is not a SOLID principle?\
+A. Liskov Substitution Principle\
+B. Open / Closed Principle\
+C. Single Responsibility Principle\
+D. Separation of Concerns Principle
  
-Q4
-Which object-oriented principle is violated in the code snippet below? 
+Q4\
+Which object-oriented principle is violated in the code snippet below?
 ```
 public class DamageCalculator {
     private int damageFactor; 
@@ -560,12 +560,13 @@ public class DamageCalculator {
     } 
 } 
 ```
-A. Dependency Inversion Principle 
-B. Open/Closed Principle 
-C. Interface segregation Principle 
-D. Liskov Substitution Principle 
-Q5
-Given a Lamp class. The lamp has a color and can be switched on / off. In our apartment there is a switch on the wall, which was implemented as follows. What could be the problem with this implementation? 
+A. Dependency Inversion Principle\
+B. Open/Closed Principle\
+C. Interface segregation Principle\
+D. Liskov Substitution Principle
+
+Q5\
+Given a Lamp class. The lamp has a color and can be switched on / off. In our apartment there is a switch on the wall, which was implemented as follows. What could be the problem with this implementation?
 ```
 public class Switch {
     private Lamp lamp; 
@@ -581,27 +582,27 @@ public class Switch {
     } 
 } 
 ```
-A. The switch violates the Liskov Substitution Principle 
-B. The switch violates the Open/Closed Principle  
-C. The switch is at a higher abstraction level than the lamp, so it violates the Dependency Inversion Principle  
-D. The switch violates the Single Responsibility Principle 
+A. The switch violates the Liskov Substitution Principle\
+B. The switch violates the Open/Closed Principle\
+C. The switch is at a higher abstraction level than the lamp, so it violates the Dependency Inversion Principle\ 
+D. The switch violates the Single Responsibility Principle
 
-Q6 
-Which design pattern provides a solution to the problem of notifying multiple objects when another object changes state. 
-A. Singleton 
-B. Observer 
-C. Adapter 
+Q6\
+Which design pattern provides a solution to the problem of notifying multiple objects when another object changes state.\
+A. Singleton\
+B. Observer\
+C. Adapter\
 D. Factory 
 
-Q7
-Which design pattern can be used to avoid constructors with long parameter lists? 
-A. Observer 
-B. Factory 
-C. Builder 
+Q7\
+Which design pattern can be used to avoid constructors with long parameter lists?\
+A. Observer\
+B. Factory\
+C. Builder\
 D. Command 
 
-Q8
-Which design pattern implementation can be recognized in the following code snippet? 
+Q8\
+Which design pattern implementation can be recognized in the following code snippet?
 ``` 
 public MyPattern withName(String name) {
     this.name = name;
@@ -612,27 +613,27 @@ public MyPattern withNumber(int number) {
     return this; 
 } 
 ```
-A. Singleton 
-B. Builder 
-C. Command 
-D. Adapter 
+A. Singleton\
+B. Builder\
+C. Command\
+D. Adapter
 
-Q9
-Which design pattern can we use if we want to provide an interface for creating a family of related or interdependent objects without specifying a specific class? 
-A. Factory method 
-B. Adapter 
-C. Builder 
-D. Abstract Factory 
+Q9\
+Which design pattern can we use if we want to provide an interface for creating a family of related or interdependent objects without specifying a specific class?\
+A. Factory method\
+B. Adapter\
+C. Builder\
+D. Abstract Factory
 
-Q10
-Which design pattern can be used in case we want to transfer the instantiation of a given class to the corresponding subclasses? 
-A. Factory method 
-B. Builder 
-C. Command 
+Q10\
+Which design pattern can be used in case we want to transfer the instantiation of a given class to the corresponding subclasses?\
+A. Factory method\
+B. Builder\
+C. Command\
 D. Observer 
  
-Q11
-Which design pattern does the following code snippet implement? 
+Q11\
+Which design pattern does the following code snippet implement?
 ```
 public class MyPattern {
     private MyPattern(){} 
@@ -644,12 +645,12 @@ public class MyPattern {
     } 
 } 
 ```
-A. Singleton 
-B. Factory 
-C. Builder 
+A. Singleton\
+B. Factory\
+C. Builder\
 D. Adapter 
 
-Q12 
+Q12\
 Which design pattern does the following code snippet implement?
 ```
 public abstract class Maze { 
@@ -671,7 +672,7 @@ public class MagicMaze extends Maze {
     } 
 } 
 ```
-A. Factory method 
-B. Command 
-C. Adapter 
+A. Factory method\
+B. Command\
+C. Adapter\
 D. Abstract Factory 
