@@ -680,3 +680,18 @@ public class MagicMaze extends Maze {
 --- D. Abstract Factory 
 
 
+
+## WEEKLY QUIZZES
+
+Q1\
+
+Which one is not a non-functional requirement?\
+--- A. External requirements\
+--- B. Product requirements\
+--- C. Management requirements\
+&check; D. Description of services, rections
+
+
+
+
+
