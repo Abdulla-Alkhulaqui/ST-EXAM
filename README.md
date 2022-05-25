@@ -77,7 +77,7 @@ public class Test extends Thread {
 ```
 
 * False
-False
+False\
 Explanation: isAlive() returns true if the thread object’s “start()” has been
 called and hasn’t terminated yet. Here we never called it thus isAlive() always
 returns False
