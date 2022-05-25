@@ -1,7 +1,7 @@
 # ST-EXAM INVENTORY
 
 ## Threads
-Q1
+Q1.
 Sequence diagrams illustrate interactions between objects on a time axis going from the top to the bottom of the diagram. The lifeline of an object is the dashed line. The messages passed (that is, the method calls) between the objects are shown as the arrows. On the figure the arrows denote locking resources. We know that both threads need both resources. 
  
                                        
