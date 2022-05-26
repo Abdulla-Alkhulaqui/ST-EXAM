@@ -789,3 +789,22 @@ What is software architecture?\
 --- B. The way software is deployed to the hardware architecture.\
 &check; C. A set of primary design decisions made during software development.\
 --- D. Software component diagram.
+
+
+
+Q11
+
+Which is true about verification?\
+--- Dynamic analysis can reveal errors resulting from program unit interactions.
+
+
+Q12
+
+Which thread state does not exist?\
+--- Stopped.
+
+
+Q13
+
+What is the default priority of threads ?\
+--- 5.
