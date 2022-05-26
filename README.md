@@ -808,3 +808,9 @@ Q13
 
 What is the default priority of threads ?\
 --- 5.
+
+
+Q14
+
+design pattern can we reduce the required memory ...\
+--- Flyweight.
