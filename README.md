@@ -263,7 +263,7 @@ Q12\
 What is the starting point of object-oriented design?\
 --- A. 	Functions\
 --- B. 	Activities\
---- C. 	Entities and relations\
+&check; C. 	Entities and relations\
 --- D. 	Architecture
 
 Q13\
